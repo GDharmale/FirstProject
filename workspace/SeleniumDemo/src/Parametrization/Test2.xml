@@ -1,0 +1,17 @@
+<suite name="Suite">
+
+    <test name="FaceBookTest">
+
+	<parameter name="username" value="gauravdharmale" />
+
+	<parameter name="password" value="123456" />
+
+		<classes>
+
+		    <class name="Parametrization.FbLoginUsingXML" />
+
+		</classes>
+
+    </test>
+
+</suite>

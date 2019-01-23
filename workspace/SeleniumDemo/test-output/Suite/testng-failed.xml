@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="123456"/>
+  <parameter name="username" value="gauravdharmale"/>
+  <test name="FaceBookTest(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="username" value="gauravdharmale"/>
+    <classes>
+      <class name="Parametrization.FbLoginUsingXML">
+        <methods>
+          <include name="Fblogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Parametrization.FbLoginUsingXML -->
+    </classes>
+  </test> <!-- FaceBookTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
